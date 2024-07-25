@@ -3,10 +3,12 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   output: 'standalone',
-  env: {
-    HUGGINGFACE_API_KEY: process.env.HUGGINGFACE_API_KEY,
-    PDF_URL: process.env.PDF_URL,
-  },
+  experimental: {
+    outputStandalone: true
+  }
+};
+
+module.exports = nextConfig;
   async headers() {
     return [
       {
