@@ -14,7 +14,8 @@
     "react-dom": "^18.2.0",
     "@huggingface/inference": "^2.6.1",
     "pdfreader": "^3.0.0",
-    "node-fetch": "^3.3.0"
+    "node-fetch": "^3.3.0",
+    "eventsource-parser": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^8.26.0",
