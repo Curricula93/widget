@@ -1,0 +1,26 @@
+{
+  "name": "pdf-rag-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@huggingface/inference": "^2.6.1",
+    "pdfreader": "^3.0.0",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-next": "^12.3.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
